@@ -1,5 +1,5 @@
 import React from "react";
-import Heroimg from "./heroming";
+import Heroimg from "./heroming.jsx";
 import Endimg from "../../assets/images/hero-section-food.png";
 import Icon from "../../assets/icons/check-menu-icon.svg";
 import { HashLink as Link } from "react-router-hash-link";
