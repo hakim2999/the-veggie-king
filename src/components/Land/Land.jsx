@@ -15,7 +15,7 @@ function Land()
                     </Link>
                 </div>
                 <div className="absolute top-[20%] left-[49%] z-[1]"> <Heroimg /> </div>
-                <div className="sm:w-[150px] w-[50px] sd:h-[150px] h-[50px] absolute bottom-0"><img src={Endimg} alt="end"/> </div> 
+                <div className="md:w-[150px] w-[50px] md:h-[150px] h-[50px] absolute bottom-0"><img src={Endimg} alt="end"/> </div> 
                 <div className="absolute right-0  w-[70px] md:w-[400px] h-[90vh] bg-[rgb(0,128,0)] z-[-1]"></div>
             </div>
         </section>

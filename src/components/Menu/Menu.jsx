@@ -29,19 +29,19 @@ function Menu()
             </div>
             <div className="flex md:flex-row flex-col gap-10">
                 <div className="h-[370px] w-[390px] flex flex-col rounded-bl-[10px] rounded-br-[10px] shadow hover:scale-[1.08] transition duration-[0.3s]">
-                    <img src={items[0].menuImg} alt="menu1" />
-                    <h3 className=" pt-5 pl-5 text-[28px] font-[400]">{items[0].name}</h3>
-                    <p className=" pt-2 pl-5 text-xl font-[300]">{items[0].detail}</p>
+                        <img src={items[0].menuImg} alt="menu1" />
+                        <h3 className=" pt-5 pl-5 text-[28px] font-[400]">{items[0].name}</h3>
+                          <p className=" pt-2 pl-5 text-xl font-[300]">{items[0].detail}</p>
                      </div>
-                    <div className="h-[370px] w-[390px] flex flex-col rounded-bl-[10px] rounded-br-[10px] shadow hover:scale-[1.08] transition duration-[0.3s]">
-                    <img src={items[1].menuImg} alt="menu2" />
-                    <h3 className=" pt-5 pl-5 text-[28px] font-[400]">{items[1].name}</h3>
-                    <p className=" pt-2 pl-5 text-xl font-[300]">{items[1].detail}</p>
+                   <div className="h-[370px] w-[390px] flex flex-col rounded-bl-[10px] rounded-br-[10px] shadow hover:scale-[1.08] transition duration-[0.3s]">
+                        <img src={items[1].menuImg} alt="menu2" />
+                        <h3 className=" pt-5 pl-5 text-[28px] font-[400]">{items[1].name}</h3>
+                        <p className=" pt-2 pl-5 text-xl font-[300]">{items[1].detail}</p>
                     </div>
-                    <div className="h-[370px] w-[390px] flex flex-col rounded-bl-[10px] rounded-br-[10px] shadow hover:scale-[1.08] transition duration-[0.3s]">
-                    <img src={items[2].menuImg} alt="menu3" />
-                    <h3 className=" pt-5 pl-5 text-[28px] font-[400]">{items[2].name}</h3>
-                    <p className=" pt-2 pl-5 text-xl font-[300]">{items[2].detail}</p>
+                    <div className=" overflow-hidden h-[370px] w-[390px] flex flex-col rounded-bl-[10px] rounded-br-[10px] shadow hover:scale-[1.08] transition duration-[0.3s]">
+                        <img src={items[2].menuImg} alt="menu3" />
+                        <h3 className=" pt-5 pl-5 text-[28px] font-[400]">{items[2].name}</h3>
+                        <p className=" pt-2 pl-5 text-xl font-[300]">{items[2].detail}</p>
                     </div>
                 
             </div>

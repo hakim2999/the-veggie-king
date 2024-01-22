@@ -30,28 +30,7 @@ nav ul li a:hover {
     opacity: 0.4;
 }
 
-.nav-menu {
-    display: none;
-    position: absolute;
-    top: 0.75rem;
-    right: 0.5rem;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 2.25rem;
-    height: 2rem;
-}
-
-nav .nav-menu span {
-    width: 100%;
-    height: 0.4rem;
-    background-color: black;
-    border-radius: 0.2rem;
-}
-
 @media (max-width: 480px) {
-    nav .nav-menu {
-        display: flex;
-    }
     nav {
         flex-direction: column;
         align-items: start;
@@ -96,5 +75,27 @@ nav .nav-menu span {
     }
     nav ul li a:hover {
         opacity: 0.4;
+    }
+}
+
+.mobile-menu {
+    display: none;
+    flex-direction: column;
+    /* background: rgb(0, 128, 0); */
+    color: white;
+    position: absolute;
+    top: 80px;
+    right: 0;
+    width: 100%;
+    z-index: 1;
+    box-shadow: 8px 3px 12px gray;
+}
+
+@media (max-width:767px) {
+    .mobile-menu-btn {
+        display: block;
+    }
+    .mobile-menu.show {
+        display: flex;
     }
 }
